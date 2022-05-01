@@ -32,13 +32,15 @@ header div h1{
     color:#eb510d;
     text-align:  left;
     padding-left: 20px;   
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 header nav{
     background-color:#ffffff;
     margin:auto;
-    float:right; 
+    float:right;
+    padding-left: 20px;   
+    padding-top: 30px;
 }
 
 header nav ul{

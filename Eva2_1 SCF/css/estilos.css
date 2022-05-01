@@ -1,0 +1,316 @@
+/*----------- Elementos De Neutralidad -----------*/
+/*------------------------------------------------*/
+
+html, body, header, nav, h1, h2, h3, h4, ol, 
+ul, li, a, p, iframe, div, img, label, table, form{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/*----------- Header, Logo y Enlace  ------------*/
+/*-----------------------------------------------*/
+
+header{
+    background-color: #ffffff;
+    padding:15px;
+    width: 100%;
+    display: inline;
+}
+
+header div img{
+    float: left;
+    padding-left: 15px;
+}
+
+header div h1{
+    width: 60%;
+    color:#eb510d;
+    text-align:  left;
+    padding-left: 20px;   
+    padding-top: 100px;
+}
+
+header nav{
+    background-color:#ffffff;
+    margin:auto;
+    float:right; 
+}
+
+header nav ul{
+    background-color: #ffffff;
+    color:#eb510d;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    display: inline;
+
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    background-color: #ffffff;
+    font-size:35px;
+    font-style: strong;
+    color:#eb510d;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline;
+}
+
+header nav ul li a:hover{
+    background-color: #eb510d;
+    color:#ffffff;
+}
+
+footer h2{
+    color:#eb510d;
+    padding-left: 10px;
+}
+/*----------- Contenedor 1, 2 y 3: Divs -----------*/
+/*-------------------------------------------------*/
+
+#contenedor1 img{
+    width:100%;
+}
+
+#contenedor2{
+    width:100%;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+#contenedor2 h2{
+    color:#ffffff;
+}
+
+
+.caja1{
+    width:25%;
+    height:500px;
+    border: 1px solid black;
+    background-color: #002C48;
+    padding:20px;
+    float:left;
+    margin-left: 4%;
+}
+
+.caja2{
+    border: 1px solid black;
+    width:25%;
+    height:500px;
+    padding:20px;
+    background-color: #0061a0;
+    margin:0 auto;
+}
+
+.caja3{
+    border: 1px solid black;
+    width:25%;
+    height:500px;
+    padding:20px;
+    background-color: #002C48;
+    float:right;
+    margin-right: 4%;
+}
+
+
+#contenedor2 img{
+    width:100%;
+}
+
+#contenedor2 ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+#contenedor2 a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size:18px;
+}
+
+
+
+@media screen and (max-width:850px){
+
+    /*--------------------------*/
+    /*------- INDEX.html -------*/
+    /*--------------------------*/
+
+    header{
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    header div img{
+        display:none;
+    }
+
+    header nav ul{
+        clear:both;
+        width:100%;
+        text-align:center;
+    }
+
+    header nav ul li{
+        text-align: center;
+        padding:0;
+    }
+
+    header nav ul li a{
+        padding: 10px;
+    }
+
+
+
+    .contenedor2{
+        margin:0;
+        padding: 0;
+        width:100%;
+        clear:both;
+    }
+
+    .caja1{
+        float: left;
+        width: 93%;
+        height: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .caja3{
+        float: left;
+        width: 93%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .caja2{
+        float: left;
+        width: 93%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
+    #caja1 ul li a{
+        font-size:14px;
+    }
+
+    #caja1{
+        text-align:center;
+    }
+
+    #caja3{
+        text-align:center;
+    }
+
+    #contenedorRecuperar table{
+        width: 100%;
+    }
+
+}
+
+
+
+/*--------------------------------------------*/
+/*----------- claveTributaria.html -----------*/
+/*--------------------------------------------*/
+
+#contenedorTabla table{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contenedorTabla table tr td{
+    background-color: #f2f2f2;
+    font-size:18px;
+    text-align:justify;
+    padding:10px;
+}
+
+
+ 
+/*------------------------------------------------*/
+/*----------- formularioRecuperar.html -----------*/
+/*------------------------------------------------*/
+
+#body3{
+    background-color: #eeeeee;
+}
+
+#contenedorRecuperar{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#contenedorRecuperar table{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+#contenedorRecuperar table th p{
+    font-size:30px;
+    color:#656565;
+}
+
+#contenedorRecuperar table th label{
+    font-size:20px;
+    color:#656565;
+}
+
+#contenedorRecuperar table td label{
+    font-size:25px;
+}
+
+#contenedorRecuperar a{
+    color:#4285f4;
+    text-decoration:none;
+    font-weight: normal;
+    font-size:18px;
+}
+
+.camposForm{
+    width:100%;
+    font-size:30px;
+    border-color:lightgray;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.espaciosCamposForm{
+    padding-top:10px;
+    padding-left:50px;
+    padding-right:100px;
+}
+
+.boton{
+    font-size:28px;
+    background-color: #0067ab;
+    color:#ffffff;
+    margin-top:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:140px;
+    padding-right:140px;
+}

@@ -310,7 +310,7 @@ function clickEliminar()
 function lanzarMensaje(msg,tmsg) {
     var ms='';
     ms+='<div class="alert alert-'+tmsg+' alert-dismissible fade show" role="alert">';
-    ms+='<strong>eMove : </strong> '+msg+'';
+    ms+='<strong>Moovet : </strong> '+msg+'';
     ms+='<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>';
     ms+='</div>';
     document.getElementById("msgs").innerHTML=ms;
